@@ -79,7 +79,7 @@ const Home = () => {
         {/* Main Todo List */}
         <div className="col-span-12 lg:col-span-4 bg-gray-100 p-4 rounded shadow mb-6 md:mb-0">
           <h2 className="text-2xl mb-4">Main Todo List</h2>
-          <div className="flex flex-wrap gap-2">
+          <div data-testid="main-list" className="flex flex-wrap gap-2">
             {leftItems.map((item) => (
               <button
                 key={item.id}
@@ -96,7 +96,7 @@ const Home = () => {
 
         <div className="col-span-12 md:col-span-6 lg:col-span-4 bg-green-100 p-4 rounded shadow">
           <h2 className="text-2xl mb-4">Fruits</h2>
-          <div className="flex flex-wrap gap-2">
+          <div data-testid="fruit-list" className="flex flex-wrap gap-2">
             {fruitItems.map((item) => (
               <button
                 key={item.id}
@@ -110,7 +110,7 @@ const Home = () => {
         </div>
         <div className="col-span-12 md:col-span-6 lg:col-span-4 bg-orange-100 p-4 rounded shadow">
           <h2 className="text-2xl mb-4">Vegetables</h2>
-          <div className="flex flex-wrap gap-2">
+          <div data-testid="veg-list" className="flex flex-wrap gap-2">
             {vegItems.map((item) => (
               <button
                 key={item.id}
