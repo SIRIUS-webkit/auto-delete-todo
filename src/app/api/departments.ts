@@ -95,6 +95,6 @@ export default async function handler(
 
     res.status(200).json(grouped);
   } catch (error) {
-    res.status(500).json({ error: "Error processing data" });
+    res.status(500).json({ error: `Error processing data ${error}` });
   }
 }
