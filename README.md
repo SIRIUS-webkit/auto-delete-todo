@@ -1,4 +1,3 @@
-````markdown
 # Auto-Delete Todo List with Next.js and TypeScript
 
 This project is a dynamic todo list application built using Next.js, TypeScript, and styled with Tailwind CSS. It demonstrates several key features:
@@ -69,8 +68,7 @@ This project is a dynamic todo list application built using Next.js, TypeScript,
 To start the Next.js development server, run:
 
 Using NPM:
-````
-
+```
 npm run dev
 
 ```
@@ -78,7 +76,6 @@ npm run dev
 Using Yarn:
 
 ```
-
 yarn dev
 
 ```
@@ -92,7 +89,6 @@ To execute the unit tests, use the following command:
 Using NPM:
 
 ```
-
 npm run test
 
 ```
@@ -100,7 +96,6 @@ npm run test
 Using Yarn:
 
 ```
-
 yarn test
 
 ```
@@ -150,7 +145,6 @@ The project includes an optional API endpoint (`pages/api/department.ts`) that f
 To access the API endpoint in development, visit:
 
 ```
-
 http://localhost:3000/api/department
 
 ````
@@ -172,27 +166,5 @@ This Next.js application can be easily deployed to platforms like Vercel, Netlif
 
 Vercel automatically detects that it is a Next.js project and deploys it accordingly.
 
-### Netlify
 
-1.  Sign up or log in to [Netlify](https://www.netlify.com/).
-2.  Connect your Git repository to Netlify.
-3.  Netlify automatically builds and deploys your Next.js application.
 
-## Contributing
-
-Contributions are welcome! Please fork the repository and submit a pull request with your changes.
-
-1.  Fork the repository.
-2.  Create a new branch for your feature or bug fix.
-3.  Commit your changes.
-4.  Push to your fork.
-5.  Submit a pull request.
-
-## License
-
-This project is licensed under the [MIT License](LICENSE) - see the `LICENSE` file for details.
-````
-
----
-
-Answer from Perplexity: pplx.ai/share
